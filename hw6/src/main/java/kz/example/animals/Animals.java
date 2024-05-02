@@ -2,9 +2,9 @@ package kz.example.animals;
 
 public abstract class Animals {
 
-    int jumpSpeed;
-    int runSpeed;
-    int swimSpeed;
+    protected int jumpSpeed;
+    protected int runSpeed;
+    protected int swimSpeed;
 
     public Animals(int jumpSpeed, int runSpeed, int swimSpead) {
         this.jumpSpeed = jumpSpeed;
